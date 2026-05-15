@@ -1,0 +1,13 @@
+packages:
+  - apps/*
+  - packages/*
+
+catalog:
+  tsdown: "^0.22.0"
+
+# engineStrict: true
+# strictPeerDependencies: true
+shellEmulator: true
+preferWorkspacePackages: true
+linkWorkspacePackages: true
+enablePrePostScripts: true
