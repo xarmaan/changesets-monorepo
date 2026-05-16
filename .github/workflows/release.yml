@@ -35,3 +35,5 @@ jobs:
 
       - name: Create Release Pull Request
         uses: xarmaan/changesets-gh-publish@patch
+        with:
+          publish: github
